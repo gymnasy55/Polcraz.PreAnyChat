@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Server", "PreAnyChat.Server", "{903AF7F5-16AD-40F6-AA30-A47237C2F7A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Shared", "PreAnyChat.Shared", "{91CB6BC4-7E4D-46BD-96F0-CCEDC1EB7E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Client", "PreAnyChat.Client", "{BB5ED225-141B-49D2-9859-2CA82424B10D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Client.Web", "PreAnyChat.Client.Web", "{DE5295BD-752C-4D8B-97CE-1072DBDBEB3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Client.Mobile", "PreAnyChat.Client.Mobile", "{8A7095DE-C9A3-40EA-9A89-1E69FC8D4DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PreAnyChat.Client.Desktop", "PreAnyChat.Client.Desktop", "{D7A04A91-0A18-4E8C-8E99-9335AAEEA431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreAnyChat.Server", "PreAnyChat.Server\PreAnyChat.Server\PreAnyChat.Server.csproj", "{C46E9F62-F46A-4232-A09C-B34647008CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreAnyChat.Shared.Protos", "PreAnyChat.Shared\PreAnyChat.Shared.Protos\PreAnyChat.Shared.Protos.csproj", "{04DD8897-DAD7-4E73-8858-11D34CCC19EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreAnyChat.Client.Desktop", "PreAnyChat.Client.Desktop\PreAnyChat.Client.Desktop\PreAnyChat.Client.Desktop.csproj", "{CAB50561-D8D8-40CA-AEF5-409B9D49A03F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE5295BD-752C-4D8B-97CE-1072DBDBEB3D} = {BB5ED225-141B-49D2-9859-2CA82424B10D}
+		{8A7095DE-C9A3-40EA-9A89-1E69FC8D4DB1} = {BB5ED225-141B-49D2-9859-2CA82424B10D}
+		{D7A04A91-0A18-4E8C-8E99-9335AAEEA431} = {BB5ED225-141B-49D2-9859-2CA82424B10D}
+		{C46E9F62-F46A-4232-A09C-B34647008CD0} = {903AF7F5-16AD-40F6-AA30-A47237C2F7A6}
+		{04DD8897-DAD7-4E73-8858-11D34CCC19EC} = {91CB6BC4-7E4D-46BD-96F0-CCEDC1EB7E45}
+		{CAB50561-D8D8-40CA-AEF5-409B9D49A03F} = {D7A04A91-0A18-4E8C-8E99-9335AAEEA431}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46E9F62-F46A-4232-A09C-B34647008CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46E9F62-F46A-4232-A09C-B34647008CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46E9F62-F46A-4232-A09C-B34647008CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46E9F62-F46A-4232-A09C-B34647008CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DD8897-DAD7-4E73-8858-11D34CCC19EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DD8897-DAD7-4E73-8858-11D34CCC19EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DD8897-DAD7-4E73-8858-11D34CCC19EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DD8897-DAD7-4E73-8858-11D34CCC19EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB50561-D8D8-40CA-AEF5-409B9D49A03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB50561-D8D8-40CA-AEF5-409B9D49A03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB50561-D8D8-40CA-AEF5-409B9D49A03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB50561-D8D8-40CA-AEF5-409B9D49A03F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
